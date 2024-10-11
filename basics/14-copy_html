@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -rav --include='*.html' . ..
+rsync -ravu --filter='*.html' . ..
